@@ -1,0 +1,27 @@
+{
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.5,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat":"short",
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    //"workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+
+    "material - icon - theme.folders.associations": {
+    },
+
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+    },
+
+    "apc.listRow": {
+        "height": 23,
+    },
+}
