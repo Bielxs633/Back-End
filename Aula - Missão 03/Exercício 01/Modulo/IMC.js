@@ -1,8 +1,10 @@
 /**
+ *
  * Objetivo: criar um sistema que faça o cálculo do IMC de uma pessoa
  * Data: 07/09/24
  * Autor: Gabriel
  * Versão: 3.0
+ *
  */
 
 function calcularIMC(peso, altura){
