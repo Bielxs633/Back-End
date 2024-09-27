@@ -23,5 +23,5 @@ entradaDeDados.question('Digite o peso: ', function(peso){
 
         entradaDeDados.close()
 
-    });
-});
+    })
+})
