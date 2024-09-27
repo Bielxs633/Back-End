@@ -7,8 +7,8 @@
  * 
  **/
 
-var { calcularFatorial } = require('./Modulo/Fatorial.js');
-var readline = require('readline');
+var { calcularFatorial } = require('./Modulo/Fatorial.js')
+var readline = require('readline')
 
 var entradaDeDados = readline.createInterface({
     input: process.stdin,
@@ -16,9 +16,9 @@ var entradaDeDados = readline.createInterface({
 })
 
 entradaDeDados.question('Digite o numero que deseja ver o fatorial: ', function(numero){
-    let resultado = calcularFatorial(numero);
+    let resultado = calcularFatorial(numero)
         
-    console.log(resultado);
+    console.log(resultado)
 
-    entradaDeDados.close();
-});
+    entradaDeDados.close()
+})
