@@ -1,7 +1,7 @@
 /**
  * 
  * Objetivo: sistema que gerencie o cálculo de tabuadas
- * Data: 26/09/24
+ * Data: 13/09/24
  * Autor: Gabriel
  * Versão: 1.0
  * 
