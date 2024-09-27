@@ -21,9 +21,9 @@ function Tabuada(tabuadaInicial, tabuadaFinal, contadorInicial, contadorFinal){
 
         // Validação de caracteres inválidos:
         if (isNaN(tabuadaInicial) || isNaN(tabuadaFinal) || isNaN(contadorInicial) || isNaN(contadorFinal)){
-            return '==================================================== \n' +
-                   '|ERRO. Todas as entradas devem ser números válidos. \n' +
-                   '===================================================='
+            return '==================================================================== \n' +
+                   '|ERRO. Todas as entradas devem ser preenchidas com números válidos. \n' +
+                   '===================================================================='
         }
 
         // Converter as entradas para números inteiros:
