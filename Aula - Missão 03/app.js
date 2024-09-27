@@ -8,7 +8,7 @@
  **/
 
 var { calcularIMC } = require('./Modulo/IMC.js')
-
+var {} = require('.Modulo/')
 var { Tabuada } = require('./Modulo/Tabuada.js')
 var { calcularFatorial } = require('./Modulo/Fatorial.js')
 var { gerenciarNumeros } = require('./Modulo/par e impar.js')
@@ -29,26 +29,28 @@ console.log('5 - Pares e Ímpares')
 console.log('0 - Sair')
 console.log ('==================================')
 
-entradaDeDados.question("Digite a sua escolha: ", function (escolha) {
-    if (escolha === '1') {
+entradaDeDados.question("Digite a sua escolha: ", function (escolha){
+
+    if (escolha === '1'){
         calcularIMC()
     }
 
-    //if (escolha === '2') {
+    //if (escolha === '2'){
         //()
     //}
 
-    if (escolha === '3') {
+    if (escolha === '3'){
         Tabuada()
     }
 
-    if (escolha === '4') {
+    if (escolha === '4'){
         calcularFatorial()
     }
 
-    if (escolha === '5') {
+    if (escolha === '5'){
         gerenciarNumeros()
     }
 
     entradaDeDados.close()
+    
 })
