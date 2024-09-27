@@ -12,7 +12,3 @@ var exe2 = require('./Exercício 02/Modulo/Medias')
 var exe3 = require('./Exercício 03/Modulo/Tabuada')
 var exe4 = require('./Exercício 04/Modulo/Fatorial')
 var exe5 = require('./Exercício 05/Modulo/par e impar')
-
-function menu(){
-    
-}
