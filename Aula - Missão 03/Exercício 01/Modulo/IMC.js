@@ -17,7 +17,7 @@ function calcularIMC(peso, altura){
     // Função para validar os dados de entrada:
     function validacao(peso, altura){
 
-        if (peso === ' ' || altura === ' '){
+        if (peso === '' || altura === ''){
             return '==================================================\n|ERRO. É Obrigatório a Entrada de Todos os Valores.\n=================================================='
         }
 
