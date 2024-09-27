@@ -8,7 +8,7 @@
  **/
 
 const { gerenciarNumeros } = require('./Modulo/par e impar.js')
-const readline = require('readline');
+const readline = require('readline')
 
 const entradaDeDados = readline.createInterface({
     input: process.stdin,
