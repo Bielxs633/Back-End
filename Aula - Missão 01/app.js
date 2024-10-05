@@ -33,7 +33,7 @@ entradaDados.question('Capital inicial (P): ', (capital) => {
                 const t = parseFloat(tempo);
 
                 //Verificar se todos os valores são válidos.
-                //!isNaN -> determinar se um valor não é um número (NaN é uma abreviação para "Not-a-Number"). Ela retorna true se o valor for NaN e false caso contrário.
+                //isNaN -> determinar se um valor não é um número (NaN é uma abreviação para "Not-a-Number"). Ela retorna true se o valor for NaN e false caso contrário.
                 //toFixed -> formatar um número em uma representação de string com um número específico de casas decimais.
                 if (!isNaN(P) && !isNaN(r) && !isNaN(n) && !isNaN(t)) {
                     console.log(`Montante final: R$ ${calcularMontanteFinal(P, r, n, t).toFixed(2)}`);
